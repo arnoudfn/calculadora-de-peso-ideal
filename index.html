@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Calculo do Peso Ideal</title>
+</head>
+<body>
+    <section class="container">
+        <section class="sectiontitulo">
+            <h1 class="titulo">Calculadora de Peso Ideal</h1>
+        </section>
+        <section class="sectionnome">
+            <p>Nome:
+                <input type="text" id="inNome" class="inNome">
+            </p>
+        </section>
+        <section class="sectionsexo">
+            <p>Sexo:
+                <input type="radio" name="sexo" id="rbMasculino" class="rbMasculino">Masculino
+                <input type="radio" name="sexo" id="rbFeminino" class="rbFeminino">Feminino</p>
+        </section>
+        <section class="sectionaltura">
+            <p>Altura:
+                <input type="text" id="inAltura" class="inAltura">
+            </p>
+        </section>
+        <section class="sectionbotao">
+        <p>
+            <input type="button" value="Calcular Peso Ideal" id="btCalcular" class="botao">
+            <input type="button" value="Limpar Campos" id="btLimpar" class="botao">
+        </p>
+        </section>
+        <h3 id="outResposta"></h3>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
